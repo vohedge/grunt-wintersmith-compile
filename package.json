@@ -1,0 +1,48 @@
+{
+  "name": "grunt-wintersmith-compile",
+  "description": "A grunt task for wintersmith build process.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/vohedge/grunt-wintersmith-compile",
+  "author": {
+    "name": "vohedge",
+    "email": "vohedge@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vohedge/grunt-wintersmith-compile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vohedge/grunt-wintersmith-compile/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/vohedge/grunt-wintersmith-compile/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "wintersmith": "~2.0.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1",
+    "moment": "~2.0.0",
+    "underscore": "~1.4.4",
+    "typogr": "~0.5.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
