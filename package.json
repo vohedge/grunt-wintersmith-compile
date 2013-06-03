@@ -7,6 +7,10 @@
     "name": "vohedge",
     "email": "vohedge@gmail.com"
   },
+  "keywords": [
+    "gruntplugin",
+    "wintersmith"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/vohedge/grunt-wintersmith-compile.git"
@@ -41,8 +45,5 @@
   },
   "peerDependencies": {
     "grunt": "~0.4.1"
-  },
-  "keywords": [
-    "gruntplugin"
-  ]
+  }
 }
