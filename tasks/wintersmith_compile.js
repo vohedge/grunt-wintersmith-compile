@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 		grunt.log.writeln('config: ' + config);
 
 		// Set output path
-		// Default path is the same directory to config.json
+		// Default path is the same directory as config.json
 		rawOutput = grunt.config.get([this.name, this.target, 'options', 'output']);
 		if (!rawOutput) {
 			configDir = path.dirname(config);

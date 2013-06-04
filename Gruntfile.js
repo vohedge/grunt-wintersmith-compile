@@ -30,8 +30,8 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     wintersmith_compile: {
-      // In default option, this task tries to find config.json from
-      // same directory to Gruntfile.
+      // By default option, this task tries to find config.json from
+      // the same directory as Gruntfile.
       // default_options: {
       //   options: {
       //     config: 'config.json',
