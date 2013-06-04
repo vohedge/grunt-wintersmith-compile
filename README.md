@@ -26,26 +26,29 @@ In your project's Gruntfile, add a section named `wintersmith_compile` to the da
 grunt.initConfig({
   wintersmith_compile: {
     your_target: {
-      config: 'path/to/config.json',
-      output: 'path/to/build'
-    },
+      options {
+        config: 'path/to/config.json',
+        output: 'path/to/build'
+      }
+    }
   },
 })
 ```
 
 ### Options
 
-#### options.config
+#### config
 Type: `String`
 Default value: `'config.json'`
 
 A string value that is a path to config.json.
+By default, this task tries to find config.json from the same directory as Gruntfile.
 
-#### options.output
+#### output
 Type: `String`
 Default value: `'build'`
 
-A string value that is a path output directory.
+A string value that is a path to output directory.
 
 ### Usage Examples
 
@@ -64,10 +67,12 @@ grunt.initConfig({
 grunt.initConfig({
   wintersmith_compile: {
     your_target: {
-      config: 'path/to/config.json',
-      output: 'path/to/build'
+      options: {
+        config: 'path/to/config.json',
+        output: 'path/to/build'
+      }
     }
-  },
+  }
 })
 ```
 
