@@ -1,7 +1,7 @@
 {
   "name": "grunt-wintersmith-compile",
   "description": "A grunt task for wintersmith build process.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/vohedge/grunt-wintersmith-compile",
   "author": {
     "name": "vohedge",
